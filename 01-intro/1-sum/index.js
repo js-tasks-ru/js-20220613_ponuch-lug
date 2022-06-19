@@ -5,6 +5,7 @@
  * @param {number} n second number
  * @returns {number}
  */
-export const sum = (m, n) => {
-
+export default function sum (m, n) {
+    return m + n;
 };
+
